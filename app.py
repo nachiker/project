@@ -284,4 +284,4 @@ def download_csv(filename):
 
 if __name__ == "__main__":
     ssl_context = ('cert.pem', 'key.pem'    )
-    app.run(debug=True, ssl_context=ssl_context, host="0.0.0.0", port=5000)
+    app.run(debug=True, ssl_context=ssl_context, host="127.0.0.1", port=5000)
